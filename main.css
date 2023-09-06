@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    margin-top: 16px;
+    font-size: 48px;
+}
+
+.input-group {
+    align-items: center;
+    text-align: center;
+    margin: 16px;
+    padding: 8px;
+    max-width: 640px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+
+form input {
+    text-align: center;
+    max-width: 620px;
+    width: 320px;
+    height: 36px;
+    margin-top: 16px;
+    border-radius: 40px 40px 40px 40px;
+    border: 2px solid green;
+}
+
+form button {
+    text-align: center;
+    background-color: rgba(211, 255, 211, 0.712);
+    margin-top: 8px;
+    width: 40px;
+    height: 36px;
+    border-radius: 40px 40px 40px 40px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgba(19, 254, 19, 0.366) ;
+}
+
+
+
+.lista-tarefas {
+    background-color: rgba(211, 255, 211, 0.712);
+    margin-top: 8px;
+    font-size: 27px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 36px;
+    margin-right: 36px;
+    height: 36px;
+    display: none;
+}
+
+ul li {
+    margin-top: 8px;
+    font-size: 27px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 36px;
+    margin-right: 36px;
+    height: 36px;
+    list-style: none;
+}
+
+p {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.feito {
+    text-decoration: line-through;
+}
+
