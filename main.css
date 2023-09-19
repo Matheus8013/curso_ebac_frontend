@@ -1,0 +1,16 @@
+h1{
+    padding-top: 64px;
+}
+
+button {
+    margin-top: 16px;
+}
+
+label, input {
+    font-size: 18px;
+}
+
+.error {
+    color: red;
+    display: block;
+}
