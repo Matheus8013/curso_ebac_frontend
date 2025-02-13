@@ -1,4 +1,4 @@
-const listaDeAlunaosENotas = [
+const listaDeAlunosENotas = [
     {
         nome : 'Ana', nota : 8
     },
@@ -25,11 +25,11 @@ const listaDeAlunaosENotas = [
     },
 ]
 
-const relatorioAlunosAprovados = listaDeAlunaosENotas.filter((item) => {
+const relatorioAlunosAprovados = listaDeAlunosENotas.filter((item) => {
     return item.nota >= 6
 });
 
-const relatorioAlunosReprovados = listaDeAlunaosENotas.filter((item) => {
+const relatorioAlunosReprovados = listaDeAlunosENotas.filter((item) => {
     return item.nota < 6
 });
 
